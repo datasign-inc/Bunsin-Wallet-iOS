@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>jp.datasign.bunsin-wallet</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>openid-credential-offer</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>jp.datasign.bunsin-wallet</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>openid4vp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>jp.datasign.bunsin-wallet</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>siopv2</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.3.0</string>
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.com.ownd-project</key>
+		<dict>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<true/>
+			<key>NSUbiquitousContainerName</key>
+			<string>Ownd Wallet</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>any</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
